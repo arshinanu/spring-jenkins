@@ -16,7 +16,7 @@ public class DummyApplicationTests {
 	@Test
 	public void contextLoads() {
 		logger.info(" test casse executing");
-		
+		logger.info(" test casse executing***");
 		assertEquals(true, true);
 	}
 
