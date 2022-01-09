@@ -14,7 +14,7 @@ class DummyApplicationTests {
 	public static Logger logger=LoggerFactory.getLogger(DummyApplicationTests.class);
 
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 		logger.info(" test casse executing");
 		
 		assertEquals(true, true);
